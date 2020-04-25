@@ -6,14 +6,18 @@
   "author": "loverofmusic <1073972000@qq.com>",
   "license": "MIT",
   "scripts": {
-    "server:dev": "cross-env NODE_ENV=development nodemon ./app.js"
+    "server:dev": "cross-env NODE_ENV=development nodemon ./app.js",
+    "api:docs": "jsdoc ./**/*.js -d ./docs/jsdoc"
   },
   "dependencies": {
     "cross-env": "^7.0.2",
     "koa": "^2.11.0",
-    "lodash": "^4.17.15"
+    "koa-simple-router": "^0.2.0",
+    "lodash": "^4.17.15",
+    "module-alias": "^2.2.2"
   },
   "devDependencies": {
+    "jsdoc": "^3.6.4",
     "nodemon": "^2.0.3"
   }
 }
