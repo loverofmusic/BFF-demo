@@ -5,7 +5,15 @@
   "repository": "git@github.com:loverofmusic/bff.git",
   "author": "loverofmusic <1073972000@qq.com>",
   "license": "MIT",
+  "scripts": {
+    "server:dev": "cross-env NODE_ENV=development nodemon ./app.js"
+  },
   "dependencies": {
-    "koa": "^2.11.0"
+    "cross-env": "^7.0.2",
+    "koa": "^2.11.0",
+    "lodash": "^4.17.15"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.3"
   }
 }
