@@ -1,7 +1,9 @@
 const { extend } = require('lodash');
+const { join } = require('path');
 
 let config = {
-  // port: 80
+  viewDir: join(__dirname,'..', 'views'),
+  staticDir: join(__dirname, '..', 'assets')
 };
 
 if (process.env.NODE_ENV == 'development') {
