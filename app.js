@@ -12,14 +12,14 @@ const { port, viewDir, staticDir } = require('./config');
 const co = require('co');
 const app = new Koa();
 const serverStatic = require('koa-static');
-// const historyApiFallback = require('koa-history-api-fallback');
+const historyApiFallback = require('koa-history-api-fallback');
 
 // console.log(staticDir);
 
 //静态资源
 app.use(serverStatic(staticDir));
 
-// app.use(historyApiFallback({index: '/', whiteList: ['/api']}));
+app.use(historyApiFallback({index: '/', whiteList: ['/api']}));
 
 // koa-swig 模版引擎渲染
 app.context.render = co.wrap(
