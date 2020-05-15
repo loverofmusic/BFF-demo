@@ -4,7 +4,8 @@
   "main": "index.js",
   "repository": "git@github.com:loverofmusic/bff.git",
   "author": "loverofmusic <1073972000@qq.com>",
-  "description": "MPA, MPA+SPA",
+  "description": "前后端BFF架构代码实践（1）",
+  "keywords":["node.js","javascript", "MPA", "MPA+SPA"],
   "license": "MIT",
   "scripts": {
     "server:dev": "cross-env NODE_ENV=development nodemon ./app.js",
