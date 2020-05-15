@@ -6,3 +6,58 @@
 [2020-05-15T10:34:53.429] [ERROR] cheese - 错误日志监听成功
 [2020-05-15T10:41:32.833] [ERROR] cheese - 错误日志监听成功
 [2020-05-15T10:45:44.584] [ERROR] cheese - 错误日志监听成功
+[2020-05-15T10:50:05.722] [ERROR] cheese - 错误日志监听成功
+[2020-05-15T10:52:23.231] [ERROR] cheese - 错误日志监听成功
+[2020-05-15T10:52:52.797] [ERROR] cheese - 错误日志监听成功
+[2020-05-15T13:47:25.548] [ERROR] cheese - 错误日志监听成功
+[2020-05-15T13:48:38.719] [ERROR] cheese - ReferenceError: data is not defined
+    at actionIndex (/Users/zhangcong/code/NODE/BFF-demo/controllers/IndexController.js:6:7)
+    at dispatch (/Users/zhangcong/code/NODE/BFF-demo/node_modules/koa-simple-router/index.js:186:18)
+    at Router._lookup (/Users/zhangcong/code/NODE/BFF-demo/node_modules/koa-simple-router/index.js:198:12)
+    at /Users/zhangcong/code/NODE/BFF-demo/node_modules/koa-simple-router/index.js:138:21
+    at dispatch (/Users/zhangcong/code/NODE/BFF-demo/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at /Users/zhangcong/code/NODE/BFF-demo/middlewares/errorHandler.js:16:13
+    at dispatch (/Users/zhangcong/code/NODE/BFF-demo/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at /Users/zhangcong/code/NODE/BFF-demo/middlewares/errorHandler.js:6:15
+    at dispatch (/Users/zhangcong/code/NODE/BFF-demo/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at serve (/Users/zhangcong/code/NODE/BFF-demo/node_modules/koa-static/index.js:53:15)
+[2020-05-15T13:50:09.617] [ERROR] cheese - 错误日志监听成功
+[2020-05-15T13:50:29.477] [ERROR] cheese - 错误日志监听成功
+[2020-05-15T13:52:05.174] [ERROR] cheese - 错误日志监听成功
+[2020-05-15T13:52:14.468] [ERROR] cheese - ReferenceError: data is not defined
+    at actionIndex (/Users/zhangcong/code/NODE/BFF-demo/controllers/IndexController.js:6:7)
+    at dispatch (/Users/zhangcong/code/NODE/BFF-demo/node_modules/koa-simple-router/index.js:186:18)
+    at Router._lookup (/Users/zhangcong/code/NODE/BFF-demo/node_modules/koa-simple-router/index.js:198:12)
+    at /Users/zhangcong/code/NODE/BFF-demo/node_modules/koa-simple-router/index.js:138:21
+    at dispatch (/Users/zhangcong/code/NODE/BFF-demo/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at /Users/zhangcong/code/NODE/BFF-demo/middlewares/errorHandler.js:17:13
+    at dispatch (/Users/zhangcong/code/NODE/BFF-demo/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at /Users/zhangcong/code/NODE/BFF-demo/middlewares/errorHandler.js:6:15
+    at dispatch (/Users/zhangcong/code/NODE/BFF-demo/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at serve (/Users/zhangcong/code/NODE/BFF-demo/node_modules/koa-static/index.js:53:15)
+[2020-05-15T13:52:57.195] [ERROR] cheese - 错误日志监听成功
+[2020-05-15T13:53:10.935] [ERROR] cheese - 错误日志监听成功
+[2020-05-15T13:53:17.562] [ERROR] cheese - ReferenceError: data is not defined
+    at actionIndex (/Users/zhangcong/code/NODE/BFF-demo/controllers/IndexController.js:6:7)
+    at dispatch (/Users/zhangcong/code/NODE/BFF-demo/node_modules/koa-simple-router/index.js:186:18)
+    at Router._lookup (/Users/zhangcong/code/NODE/BFF-demo/node_modules/koa-simple-router/index.js:198:12)
+    at /Users/zhangcong/code/NODE/BFF-demo/node_modules/koa-simple-router/index.js:138:21
+    at dispatch (/Users/zhangcong/code/NODE/BFF-demo/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at /Users/zhangcong/code/NODE/BFF-demo/middlewares/errorHandler.js:17:13
+    at dispatch (/Users/zhangcong/code/NODE/BFF-demo/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at /Users/zhangcong/code/NODE/BFF-demo/middlewares/errorHandler.js:6:15
+    at dispatch (/Users/zhangcong/code/NODE/BFF-demo/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at serve (/Users/zhangcong/code/NODE/BFF-demo/node_modules/koa-static/index.js:53:15)
+[2020-05-15T13:57:21.857] [ERROR] cheese - ReferenceError: data is not defined
+    at actionIndex (/Users/zhangcong/code/NODE/BFF-demo/controllers/IndexController.js:6:7)
+    at dispatch (/Users/zhangcong/code/NODE/BFF-demo/node_modules/koa-simple-router/index.js:186:18)
+    at Router._lookup (/Users/zhangcong/code/NODE/BFF-demo/node_modules/koa-simple-router/index.js:198:12)
+    at /Users/zhangcong/code/NODE/BFF-demo/node_modules/koa-simple-router/index.js:138:21
+    at dispatch (/Users/zhangcong/code/NODE/BFF-demo/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at /Users/zhangcong/code/NODE/BFF-demo/middlewares/errorHandler.js:17:13
+    at dispatch (/Users/zhangcong/code/NODE/BFF-demo/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at /Users/zhangcong/code/NODE/BFF-demo/middlewares/errorHandler.js:6:15
+    at dispatch (/Users/zhangcong/code/NODE/BFF-demo/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at serve (/Users/zhangcong/code/NODE/BFF-demo/node_modules/koa-static/index.js:53:15)
+[2020-05-15T14:00:47.824] [ERROR] cheese - 错误日志监听成功
+[2020-05-15T14:07:30.159] [ERROR] cheese - 错误日志监听成功
