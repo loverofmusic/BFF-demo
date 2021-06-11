@@ -762,6 +762,11 @@ koa-convert@^1.2.0:
     co "^4.6.0"
     koa-compose "^3.0.0"
 
+koa-history-api-fallback@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/koa-history-api-fallback/-/koa-history-api-fallback-1.0.0.tgz#b232e7d118d0dd5afeea3613c649608d9b0f9087"
+  integrity sha512-vcdBDyMu+cuW5T/TZKoE2tC95ZHm4MgNTNSXHKf4gP//eeF9heqKkRC9JFxjce5HnXjGN0PNstZpDUlcAZCc7g==
+
 koa-send@^5.0.0:
   version "5.0.0"
   resolved "https://registry.npm.taobao.org/koa-send/download/koa-send-5.0.0.tgz#5e8441e07ef55737734d7ced25b842e50646e7eb"
@@ -1008,9 +1013,9 @@ normalize-path@^3.0.0, normalize-path@~3.0.0:
   integrity sha1-Dc1p/yOhybEf0JeDFmRKA4ghamU=
 
 normalize-url@^4.1.0:
-  version "4.5.0"
-  resolved "https://registry.npm.taobao.org/normalize-url/download/normalize-url-4.5.0.tgz?cache=0&sync_timestamp=1580491266117&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fnormalize-url%2Fdownload%2Fnormalize-url-4.5.0.tgz#453354087e6ca96957bd8f5baf753f5982142129"
-  integrity sha1-RTNUCH5sqWlXvY9br3U/WYIUISk=
+  version "4.5.1"
+  resolved "https://registry.yarnpkg.com/normalize-url/-/normalize-url-4.5.1.tgz#0dd90cf1288ee1d1313b87081c9a5932ee48518a"
+  integrity sha512-9UZCFRHQdNrfTpGg8+1INIg93B6zE0aXMVFkw1WFwvO4SlZywU6aLg5Of0Ap/PgcbSw4LNxvMWXMeugwMCX0AA==
 
 object-assign@^4.0.1:
   version "4.1.1"
